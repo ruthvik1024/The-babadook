@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #6366f1;
+}
+
+html.dark {
+  --tw-bg-opacity: 1;
+  background-color: #18181b;
+  color-scheme: dark;
+}
+
+html.light {
+  --tw-bg-opacity: 1;
+  background-color: #f8fafc;
+  color-scheme: light;
+}
+
+body {
+  font-family: 'Inter', 'ui-sans-serif', 'system-ui', sans-serif;
+}
+
+.accent-text {
+  color: var(--accent);
+}
